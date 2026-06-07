@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Home from './home.jsx'
 import './App.css'
 import Login from './assets/account.jsx'
-import Blogdetails from './assets/blogdetails.jsx'
+
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Blogs from './blog.jsx';
 import Account from './assets/account.jsx'
@@ -24,7 +24,7 @@ const router= createBrowserRouter([
   },
 {
   path:"/blogs/:id",
-  element:<Blogdetails/>
+  element:<Blogs/>
 },
 {
   path:"/services",
